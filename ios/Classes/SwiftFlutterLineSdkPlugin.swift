@@ -1,7 +1,8 @@
 import Flutter
 import UIKit
-
+#if LINE_FLUTTER_BETA_ENV_COMPATIBLE
 import LineSDK
+#endif
 
 public class SwiftFlutterLineSdkPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
