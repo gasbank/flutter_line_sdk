@@ -40,13 +40,11 @@ public class SwiftFlutterLineSdkPlugin: NSObject, FlutterPlugin {
   }
 }
 
-/*
 extension LineSDKError {
   var flutterError: FlutterError {
     return FlutterError(code: String(errorCode), message: errorDescription, details: errorUserInfo.description)
   }
 }
- */
 
 extension FlutterError {
   static let nilArgument = FlutterError(
